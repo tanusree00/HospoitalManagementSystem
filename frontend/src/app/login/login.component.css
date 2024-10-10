@@ -1,0 +1,10 @@
+.wrapper{
+    width: 400px;
+    position: absolute;
+    top: 10%;
+    left: 38%;
+}
+
+.auth-content,.card{
+    width: 100% !important;
+}

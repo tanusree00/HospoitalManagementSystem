@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Project24</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- web css end -->
+
+  <!-- dashboard css start -->
+  <link href="./assets/vendor/fontawesome/css/fontawesome.min.css" rel="stylesheet">
+  <link href="./assets/vendor/fontawesome/css/solid.min.css" rel="stylesheet">
+  <link href="./assets/vendor/fontawesome/css/brands.min.css" rel="stylesheet">
+  <link href="./assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./assets/css/master.css" rel="stylesheet">
+  <link href="./assets/vendor/flagiconcss/css/flag-icon.min.css" rel="stylesheet">
+  <!-- dashboard css end -->
+  <style>
+    #myspinner {
+      position: absolute;
+      top:50%;
+      left: 50%;
+      border: 8px solid #cc1b1b;
+      /* Light grey */
+      border-top: 8px solid #3498db;
+      /* Blue */
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      animation: spin 2s linear infinite;
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    #content {
+      display: none;
+    }
+  </style>
+  
+</head>
+
+<body>
+  <script>
+    
+    window.onload = function(){
+      document.getElementById('myspinner').style.display = "none";
+    document.getElementById('content').style.display = "block";
+    }
+  </script>
+  <div id="myspinner"></div>
+  <div id="content">
+    <app-root></app-root>
+  </div>
+
+  <!-- web javascrippt strat -->
+  <!-- JavaScript Libraries -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/lib/wow/wow.min.js"></script>
+  <script src="./assets/lib/easing/easing.min.js"></script>
+  <script src="./assets/lib/waypoints/waypoints.min.js"></script>
+  <script src="./assets/lib/counterup/counterup.min.js"></script>
+  <script src="./assets/lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="./assets/lib/tempusdominus/js/moment.min.js"></script>
+  <script src="./assets/lib/tempusdominus/js/moment-timezone.min.js"></script>
+  <script src="./assets/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+  <!-- dashboad js start -->
+  <script src="./assets/vendor/jquery/jquery.min.js"></script>
+  <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/vendor/chartsjs/Chart.min.js"></script>
+  <script src="./assets/js/dashboard-charts.js"></script>
+  <script src="./assets/js/script.js"></script>
+
+  <!-- Template Javascript -->
+  <script src="./assets/js/main.js"></script>
+  <!-- web javascrippt end -->
+</body>
+
+</html>
