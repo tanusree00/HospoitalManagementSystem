@@ -7,6 +7,8 @@ import { DashboardFormsComponent } from './dashboard-forms/dashboard-forms.compo
 import { DashboardTablesComponent } from './dashboard-tables/dashboard-tables.component';
 import { DashboardChartsComponent } from './dashboard-charts/dashboard-charts.component';
 import { DashboardHomeComponent } from './dashboard-home/dashboard-home.component';
+import { HeaderComponent } from './header/header.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 
 @NgModule({
@@ -14,7 +16,9 @@ import { DashboardHomeComponent } from './dashboard-home/dashboard-home.componen
     DashboardComponent,
     DashboardTablesComponent,
     DashboardChartsComponent,
-    DashboardHomeComponent
+    DashboardHomeComponent,
+    HeaderComponent,
+    SidebarComponent
   ],
   imports: [
     CommonModule,
