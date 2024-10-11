@@ -7,15 +7,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { LoginComponent } from './login/login.component';
-import { DashboardFormsComponent } from './dashboard/dashboard-forms/dashboard-forms.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent,
-    DashboardFormsComponent
+    LoginComponent
     
   ],
   imports: [
